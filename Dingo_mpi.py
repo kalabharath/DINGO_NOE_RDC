@@ -142,7 +142,7 @@ if rank == 0:
         exit()
     print "Total number of hits  found are : ",len(total_data)
     # ranked_data = rank_assembly(total_data, args.numhits)
-    ranked_data = rank_assembly_with_clustering(total_data, args.numhits)
+    ranked_data = rank_assembly_with_clustering_noemax(total_data, args.numhits)
     print len(ranked_data)
     if args.stage == 1:
         sse_index = 0

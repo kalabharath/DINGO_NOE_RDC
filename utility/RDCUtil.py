@@ -129,6 +129,14 @@ def getExtendedMapRoute(map_route):
 
     return extended
 
+def fakeExtendedMapRoute(map_route):
+
+    extended=[]
+    for entry in map_route:
+        extended.append([entry])
+    return extended
+
+
 def getRDCMapRoute(ss_combi, rdc_data):
     """
     #map_route = [[0, 1, 'start'], [1, 2, 'right'], [2, 3, 'right'], [3, 4, 'right'], [4, 5, 'right'], [5, 6, 'right']
