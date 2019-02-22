@@ -224,7 +224,7 @@ def rmsdQCP(psmotif, csmotif, direction, cutoff, previous_sse_index):
         indexa = 2
         indexb = 1
     else:
-        print "WTF:????"
+        print "Error"
 
     # Extra careful about this if-else loop, the trick is finding the the correct arrays
     if direction == 'left':
